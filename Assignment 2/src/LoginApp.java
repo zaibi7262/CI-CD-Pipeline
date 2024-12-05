@@ -19,7 +19,6 @@ public class LoginApp extends JFrame {
         setSize(350, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        system.out.println("history");
 
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(3, 2, 10, 10));
